@@ -1,0 +1,869 @@
+#2013-08
+
+green_13_08 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-08.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_13_08)[1]<- 'VendorID'
+names(green_13_08)[2]<- 'lpep_pickup_datetime'
+names(green_13_08)[3]<- 'Lpep_dropoff_datetime'
+names(green_13_08)[4]<-'Store_and_fwd_flag'
+names(green_13_08)[5]<- 'RateCodeID'
+names(green_13_08)[6]<- 'Pickup_longitude'
+names(green_13_08)[7]<- 'Pickup_latitude'
+names(green_13_08)[8]<- 'Dropoff_longitude'
+names(green_13_08)[9]<- 'Dropoff_latitude'
+names(green_13_08)[10]<- 'Passenger_count'
+names(green_13_08)[11]<- 'Trip_distance'
+names(green_13_08)[12]<- 'Fare_amount'
+names(green_13_08)[13]<- 'Extra'
+names(green_13_08)[14]<- 'MTA_tax'
+names(green_13_08)[15]<- 'Tip_amount'
+names(green_13_08)[16]<- 'Tolls_amount'
+names(green_13_08)[17]<- 'Ehail_fee'
+names(green_13_08)[18]<- 'Total_amount'
+names(green_13_08)[19]<- 'Payment_type'
+names(green_13_08)[20]<- 'Trip_type'
+
+
+green_13_08 <- green_13_08[1:20]
+
+write.csv(green_13_08,file="D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-08-cleans.csv",row.names=FALSE)
+
+#2013-09
+
+green_13_09 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-09.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_13_09)[1]<- 'VendorID'
+names(green_13_09)[2]<- 'lpep_pickup_datetime'
+names(green_13_09)[3]<- 'Lpep_dropoff_datetime'
+names(green_13_09)[4]<-'Store_and_fwd_flag'
+names(green_13_09)[5]<- 'RateCodeID'
+names(green_13_09)[6]<- 'Pickup_longitude'
+names(green_13_09)[7]<- 'Pickup_latitude'
+names(green_13_09)[8]<- 'Dropoff_longitude'
+names(green_13_09)[9]<- 'Dropoff_latitude'
+names(green_13_09)[10]<- 'Passenger_count'
+names(green_13_09)[11]<- 'Trip_distance'
+names(green_13_09)[12]<- 'Fare_amount'
+names(green_13_09)[13]<- 'Extra'
+names(green_13_09)[14]<- 'MTA_tax'
+names(green_13_09)[15]<- 'Tip_amount'
+names(green_13_09)[16]<- 'Tolls_amount'
+names(green_13_09)[17]<- 'Ehail_fee'
+names(green_13_09)[18]<- 'Total_amount'
+names(green_13_09)[19]<- 'Payment_type'
+names(green_13_09)[20]<- 'Trip_type'
+
+
+green_13_09 <- green_13_09[1:20]
+
+write.csv(green_13_09,file="D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-09-cleans.csv",row.names=FALSE)
+
+#2013-10
+
+green_13_10 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-10.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_13_10)[1]<- 'VendorID'
+names(green_13_10)[2]<- 'lpep_pickup_datetime'
+names(green_13_10)[3]<- 'Lpep_dropoff_datetime'
+names(green_13_10)[4]<-'Store_and_fwd_flag'
+names(green_13_10)[5]<- 'RateCodeID'
+names(green_13_10)[6]<- 'Pickup_longitude'
+names(green_13_10)[7]<- 'Pickup_latitude'
+names(green_13_10)[8]<- 'Dropoff_longitude'
+names(green_13_10)[9]<- 'Dropoff_latitude'
+names(green_13_10)[10]<- 'Passenger_count'
+names(green_13_10)[11]<- 'Trip_distance'
+names(green_13_10)[12]<- 'Fare_amount'
+names(green_13_10)[13]<- 'Extra'
+names(green_13_10)[14]<- 'MTA_tax'
+names(green_13_10)[15]<- 'Tip_amount'
+names(green_13_10)[16]<- 'Tolls_amount'
+names(green_13_10)[17]<- 'Ehail_fee'
+names(green_13_10)[18]<- 'Total_amount'
+names(green_13_10)[19]<- 'Payment_type'
+names(green_13_10)[20]<- 'Trip_type'
+
+
+green_13_10 <- green_13_10[1:20]
+
+write.csv(green_13_10,file="D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-10-cleans.csv",row.names=FALSE)
+
+#2013-11
+
+green_13_11 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-11.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_13_11)[1]<- 'VendorID'
+names(green_13_11)[2]<- 'lpep_pickup_datetime'
+names(green_13_11)[3]<- 'Lpep_dropoff_datetime'
+names(green_13_11)[4]<-'Store_and_fwd_flag'
+names(green_13_11)[5]<- 'RateCodeID'
+names(green_13_11)[6]<- 'Pickup_longitude'
+names(green_13_11)[7]<- 'Pickup_latitude'
+names(green_13_11)[8]<- 'Dropoff_longitude'
+names(green_13_11)[9]<- 'Dropoff_latitude'
+names(green_13_11)[10]<- 'Passenger_count'
+names(green_13_11)[11]<- 'Trip_distance'
+names(green_13_11)[12]<- 'Fare_amount'
+names(green_13_11)[13]<- 'Extra'
+names(green_13_11)[14]<- 'MTA_tax'
+names(green_13_11)[15]<- 'Tip_amount'
+names(green_13_11)[16]<- 'Tolls_amount'
+names(green_13_11)[17]<- 'Ehail_fee'
+names(green_13_11)[18]<- 'Total_amount'
+names(green_13_11)[19]<- 'Payment_type'
+names(green_13_11)[20]<- 'Trip_type'
+
+
+green_13_11 <- green_13_11[1:20]
+
+write.csv(green_13_11,file="D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-11-cleans.csv",row.names=FALSE)
+
+#2013-12
+
+green_13_12 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-12.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_13_12)[1]<- 'VendorID'
+names(green_13_12)[2]<- 'lpep_pickup_datetime'
+names(green_13_12)[3]<- 'Lpep_dropoff_datetime'
+names(green_13_12)[4]<-'Store_and_fwd_flag'
+names(green_13_12)[5]<- 'RateCodeID'
+names(green_13_12)[6]<- 'Pickup_longitude'
+names(green_13_12)[7]<- 'Pickup_latitude'
+names(green_13_12)[8]<- 'Dropoff_longitude'
+names(green_13_12)[9]<- 'Dropoff_latitude'
+names(green_13_12)[10]<- 'Passenger_count'
+names(green_13_12)[11]<- 'Trip_distance'
+names(green_13_12)[12]<- 'Fare_amount'
+names(green_13_12)[13]<- 'Extra'
+names(green_13_12)[14]<- 'MTA_tax'
+names(green_13_12)[15]<- 'Tip_amount'
+names(green_13_12)[16]<- 'Tolls_amount'
+names(green_13_12)[17]<- 'Ehail_fee'
+names(green_13_12)[18]<- 'Total_amount'
+names(green_13_12)[19]<- 'Payment_type'
+names(green_13_12)[20]<- 'Trip_type'
+
+
+green_13_12 <- green_13_12[1:20]
+
+write.csv(green_13_12,file="D:/Data/Cab_Data/CSV FILES/Green_2013/green_tripdata_2013-12-cleans.csv",row.names=FALSE)
+
+#2014 - 01
+
+green_14_01 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-01.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_01)[1]<- 'VendorID'
+names(green_14_01)[2]<- 'lpep_pickup_datetime'
+names(green_14_01)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_01)[4]<-'Store_and_fwd_flag'
+names(green_14_01)[5]<- 'RateCodeID'
+names(green_14_01)[6]<- 'Pickup_longitude'
+names(green_14_01)[7]<- 'Pickup_latitude'
+names(green_14_01)[8]<- 'Dropoff_longitude'
+names(green_14_01)[9]<- 'Dropoff_latitude'
+names(green_14_01)[10]<- 'Passenger_count'
+names(green_14_01)[11]<- 'Trip_distance'
+names(green_14_01)[12]<- 'Fare_amount'
+names(green_14_01)[13]<- 'Extra'
+names(green_14_01)[14]<- 'MTA_tax'
+names(green_14_01)[15]<- 'Tip_amount'
+names(green_14_01)[16]<- 'Tolls_amount'
+names(green_14_01)[17]<- 'Ehail_fee'
+names(green_14_01)[18]<- 'Total_amount'
+names(green_14_01)[19]<- 'Payment_type'
+names(green_14_01)[20]<- 'Trip_type'
+
+
+green_14_01 <- green_14_01[1:20]
+
+write.csv(green_14_01,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-01-cleans.csv",row.names=FALSE)
+
+#2014-02
+
+green_14_02 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-02.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_02)[1]<- 'VendorID'
+names(green_14_02)[2]<- 'lpep_pickup_datetime'
+names(green_14_02)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_02)[4]<-'Store_and_fwd_flag'
+names(green_14_02)[5]<- 'RateCodeID'
+names(green_14_02)[6]<- 'Pickup_longitude'
+names(green_14_02)[7]<- 'Pickup_latitude'
+names(green_14_02)[8]<- 'Dropoff_longitude'
+names(green_14_02)[9]<- 'Dropoff_latitude'
+names(green_14_02)[10]<- 'Passenger_count'
+names(green_14_02)[11]<- 'Trip_distance'
+names(green_14_02)[12]<- 'Fare_amount'
+names(green_14_02)[13]<- 'Extra'
+names(green_14_02)[14]<- 'MTA_tax'
+names(green_14_02)[15]<- 'Tip_amount'
+names(green_14_02)[16]<- 'Tolls_amount'
+names(green_14_02)[17]<- 'Ehail_fee'
+names(green_14_02)[18]<- 'Total_amount'
+names(green_14_02)[19]<- 'Payment_type'
+names(green_14_02)[20]<- 'Trip_type'
+
+
+green_14_02 <- green_14_02[1:20]
+
+write.csv(green_14_02,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-02-cleans.csv",row.names=FALSE)
+
+#2014-03
+
+green_14_03 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-03.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_03)[1]<- 'VendorID'
+names(green_14_03)[2]<- 'lpep_pickup_datetime'
+names(green_14_03)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_03)[4]<-'Store_and_fwd_flag'
+names(green_14_03)[5]<- 'RateCodeID'
+names(green_14_03)[6]<- 'Pickup_longitude'
+names(green_14_03)[7]<- 'Pickup_latitude'
+names(green_14_03)[8]<- 'Dropoff_longitude'
+names(green_14_03)[9]<- 'Dropoff_latitude'
+names(green_14_03)[10]<- 'Passenger_count'
+names(green_14_03)[11]<- 'Trip_distance'
+names(green_14_03)[12]<- 'Fare_amount'
+names(green_14_03)[13]<- 'Extra'
+names(green_14_03)[14]<- 'MTA_tax'
+names(green_14_03)[15]<- 'Tip_amount'
+names(green_14_03)[16]<- 'Tolls_amount'
+names(green_14_03)[17]<- 'Ehail_fee'
+names(green_14_03)[18]<- 'Total_amount'
+names(green_14_03)[19]<- 'Payment_type'
+names(green_14_03)[20]<- 'Trip_type'
+
+
+green_14_03 <- green_14_03[1:20]
+
+write.csv(green_14_03,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-03-cleans.csv",row.names=FALSE)
+
+#2014-04
+
+green_14_04 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-04.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_04)[1]<- 'VendorID'
+names(green_14_04)[2]<- 'lpep_pickup_datetime'
+names(green_14_04)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_04)[4]<-'Store_and_fwd_flag'
+names(green_14_04)[5]<- 'RateCodeID'
+names(green_14_04)[6]<- 'Pickup_longitude'
+names(green_14_04)[7]<- 'Pickup_latitude'
+names(green_14_04)[8]<- 'Dropoff_longitude'
+names(green_14_04)[9]<- 'Dropoff_latitude'
+names(green_14_04)[10]<- 'Passenger_count'
+names(green_14_04)[11]<- 'Trip_distance'
+names(green_14_04)[12]<- 'Fare_amount'
+names(green_14_04)[13]<- 'Extra'
+names(green_14_04)[14]<- 'MTA_tax'
+names(green_14_04)[15]<- 'Tip_amount'
+names(green_14_04)[16]<- 'Tolls_amount'
+names(green_14_04)[17]<- 'Ehail_fee'
+names(green_14_04)[18]<- 'Total_amount'
+names(green_14_04)[19]<- 'Payment_type'
+names(green_14_04)[20]<- 'Trip_type'
+
+
+green_14_04 <- green_14_04[1:20]
+
+write.csv(green_14_04,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-04-cleans.csv",row.names=FALSE)
+
+#2014-05
+
+green_14_05 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-05.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_05)[1]<- 'VendorID'
+names(green_14_05)[2]<- 'lpep_pickup_datetime'
+names(green_14_05)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_05)[4]<-'Store_and_fwd_flag'
+names(green_14_05)[5]<- 'RateCodeID'
+names(green_14_05)[6]<- 'Pickup_longitude'
+names(green_14_05)[7]<- 'Pickup_latitude'
+names(green_14_05)[8]<- 'Dropoff_longitude'
+names(green_14_05)[9]<- 'Dropoff_latitude'
+names(green_14_05)[10]<- 'Passenger_count'
+names(green_14_05)[11]<- 'Trip_distance'
+names(green_14_05)[12]<- 'Fare_amount'
+names(green_14_05)[13]<- 'Extra'
+names(green_14_05)[14]<- 'MTA_tax'
+names(green_14_05)[15]<- 'Tip_amount'
+names(green_14_05)[16]<- 'Tolls_amount'
+names(green_14_05)[17]<- 'Ehail_fee'
+names(green_14_05)[18]<- 'Total_amount'
+names(green_14_05)[19]<- 'Payment_type'
+names(green_14_05)[20]<- 'Trip_type'
+
+
+green_14_05 <- green_14_05[1:20]
+
+write.csv(green_14_05,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-05-cleans.csv",row.names=FALSE)
+
+#2014-06
+
+green_14_06 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-06.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_06)[1]<- 'VendorID'
+names(green_14_06)[2]<- 'lpep_pickup_datetime'
+names(green_14_06)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_06)[4]<-'Store_and_fwd_flag'
+names(green_14_06)[5]<- 'RateCodeID'
+names(green_14_06)[6]<- 'Pickup_longitude'
+names(green_14_06)[7]<- 'Pickup_latitude'
+names(green_14_06)[8]<- 'Dropoff_longitude'
+names(green_14_06)[9]<- 'Dropoff_latitude'
+names(green_14_06)[10]<- 'Passenger_count'
+names(green_14_06)[11]<- 'Trip_distance'
+names(green_14_06)[12]<- 'Fare_amount'
+names(green_14_06)[13]<- 'Extra'
+names(green_14_06)[14]<- 'MTA_tax'
+names(green_14_06)[15]<- 'Tip_amount'
+names(green_14_06)[16]<- 'Tolls_amount'
+names(green_14_06)[17]<- 'Ehail_fee'
+names(green_14_06)[18]<- 'Total_amount'
+names(green_14_06)[19]<- 'Payment_type'
+names(green_14_06)[20]<- 'Trip_type'
+
+
+green_14_06 <- green_14_06[1:20]
+
+write.csv(green_14_06,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-06-cleans.csv",row.names=FALSE)
+
+#2014-07
+
+green_14_07 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-07.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_07)[1]<- 'VendorID'
+names(green_14_07)[2]<- 'lpep_pickup_datetime'
+names(green_14_07)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_07)[4]<-'Store_and_fwd_flag'
+names(green_14_07)[5]<- 'RateCodeID'
+names(green_14_07)[6]<- 'Pickup_longitude'
+names(green_14_07)[7]<- 'Pickup_latitude'
+names(green_14_07)[8]<- 'Dropoff_longitude'
+names(green_14_07)[9]<- 'Dropoff_latitude'
+names(green_14_07)[10]<- 'Passenger_count'
+names(green_14_07)[11]<- 'Trip_distance'
+names(green_14_07)[12]<- 'Fare_amount'
+names(green_14_07)[13]<- 'Extra'
+names(green_14_07)[14]<- 'MTA_tax'
+names(green_14_07)[15]<- 'Tip_amount'
+names(green_14_07)[16]<- 'Tolls_amount'
+names(green_14_07)[17]<- 'Ehail_fee'
+names(green_14_07)[18]<- 'Total_amount'
+names(green_14_07)[19]<- 'Payment_type'
+names(green_14_07)[20]<- 'Trip_type'
+
+
+green_14_07 <- green_14_07[1:20]
+
+write.csv(green_14_07,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-07-cleans.csv",row.names=FALSE)
+
+#2014-08
+
+green_14_08 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-08.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_08)[1]<- 'VendorID'
+names(green_14_08)[2]<- 'lpep_pickup_datetime'
+names(green_14_08)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_08)[4]<-'Store_and_fwd_flag'
+names(green_14_08)[5]<- 'RateCodeID'
+names(green_14_08)[6]<- 'Pickup_longitude'
+names(green_14_08)[7]<- 'Pickup_latitude'
+names(green_14_08)[8]<- 'Dropoff_longitude'
+names(green_14_08)[9]<- 'Dropoff_latitude'
+names(green_14_08)[10]<- 'Passenger_count'
+names(green_14_08)[11]<- 'Trip_distance'
+names(green_14_08)[12]<- 'Fare_amount'
+names(green_14_08)[13]<- 'Extra'
+names(green_14_08)[14]<- 'MTA_tax'
+names(green_14_08)[15]<- 'Tip_amount'
+names(green_14_08)[16]<- 'Tolls_amount'
+names(green_14_08)[17]<- 'Ehail_fee'
+names(green_14_08)[18]<- 'Total_amount'
+names(green_14_08)[19]<- 'Payment_type'
+names(green_14_08)[20]<- 'Trip_type'
+
+
+green_14_08 <- green_14_08[1:20]
+
+write.csv(green_14_08,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-08-cleans.csv",row.names=FALSE)
+
+#2014-09
+
+green_14_09 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-09.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_09)[1]<- 'VendorID'
+names(green_14_09)[2]<- 'lpep_pickup_datetime'
+names(green_14_09)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_09)[4]<-'Store_and_fwd_flag'
+names(green_14_09)[5]<- 'RateCodeID'
+names(green_14_09)[6]<- 'Pickup_longitude'
+names(green_14_09)[7]<- 'Pickup_latitude'
+names(green_14_09)[8]<- 'Dropoff_longitude'
+names(green_14_09)[9]<- 'Dropoff_latitude'
+names(green_14_09)[10]<- 'Passenger_count'
+names(green_14_09)[11]<- 'Trip_distance'
+names(green_14_09)[12]<- 'Fare_amount'
+names(green_14_09)[13]<- 'Extra'
+names(green_14_09)[14]<- 'MTA_tax'
+names(green_14_09)[15]<- 'Tip_amount'
+names(green_14_09)[16]<- 'Tolls_amount'
+names(green_14_09)[17]<- 'Ehail_fee'
+names(green_14_09)[18]<- 'Total_amount'
+names(green_14_09)[19]<- 'Payment_type'
+names(green_14_09)[20]<- 'Trip_type'
+
+
+green_14_09 <- green_14_09[1:20]
+
+write.csv(green_14_09,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-09-cleans.csv",row.names=FALSE)
+
+#2014-10
+
+green_14_10 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-10.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_10)[1]<- 'VendorID'
+names(green_14_10)[2]<- 'lpep_pickup_datetime'
+names(green_14_10)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_10)[4]<-'Store_and_fwd_flag'
+names(green_14_10)[5]<- 'RateCodeID'
+names(green_14_10)[6]<- 'Pickup_longitude'
+names(green_14_10)[7]<- 'Pickup_latitude'
+names(green_14_10)[8]<- 'Dropoff_longitude'
+names(green_14_10)[9]<- 'Dropoff_latitude'
+names(green_14_10)[10]<- 'Passenger_count'
+names(green_14_10)[11]<- 'Trip_distance'
+names(green_14_10)[12]<- 'Fare_amount'
+names(green_14_10)[13]<- 'Extra'
+names(green_14_10)[14]<- 'MTA_tax'
+names(green_14_10)[15]<- 'Tip_amount'
+names(green_14_10)[16]<- 'Tolls_amount'
+names(green_14_10)[17]<- 'Ehail_fee'
+names(green_14_10)[18]<- 'Total_amount'
+names(green_14_10)[19]<- 'Payment_type'
+names(green_14_10)[20]<- 'Trip_type'
+
+
+green_14_10 <- green_14_10[1:20]
+
+write.csv(green_14_10,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-10-cleans.csv",row.names=FALSE)
+
+#2014-11
+
+green_14_11 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-11.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_11)[1]<- 'VendorID'
+names(green_14_11)[2]<- 'lpep_pickup_datetime'
+names(green_14_11)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_11)[4]<-'Store_and_fwd_flag'
+names(green_14_11)[5]<- 'RateCodeID'
+names(green_14_11)[6]<- 'Pickup_longitude'
+names(green_14_11)[7]<- 'Pickup_latitude'
+names(green_14_11)[8]<- 'Dropoff_longitude'
+names(green_14_11)[9]<- 'Dropoff_latitude'
+names(green_14_11)[10]<- 'Passenger_count'
+names(green_14_11)[11]<- 'Trip_distance'
+names(green_14_11)[12]<- 'Fare_amount'
+names(green_14_11)[13]<- 'Extra'
+names(green_14_11)[14]<- 'MTA_tax'
+names(green_14_11)[15]<- 'Tip_amount'
+names(green_14_11)[16]<- 'Tolls_amount'
+names(green_14_11)[17]<- 'Ehail_fee'
+names(green_14_11)[18]<- 'Total_amount'
+names(green_14_11)[19]<- 'Payment_type'
+names(green_14_11)[20]<- 'Trip_type'
+
+
+green_14_11 <- green_14_11[1:20]
+
+write.csv(green_14_11,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-11-cleans.csv",row.names=FALSE)
+
+#2014-12
+
+green_14_12 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-12.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_14_12)[1]<- 'VendorID'
+names(green_14_12)[2]<- 'lpep_pickup_datetime'
+names(green_14_12)[3]<- 'Lpep_dropoff_datetime'
+names(green_14_12)[4]<-'Store_and_fwd_flag'
+names(green_14_12)[5]<- 'RateCodeID'
+names(green_14_12)[6]<- 'Pickup_longitude'
+names(green_14_12)[7]<- 'Pickup_latitude'
+names(green_14_12)[8]<- 'Dropoff_longitude'
+names(green_14_12)[9]<- 'Dropoff_latitude'
+names(green_14_12)[10]<- 'Passenger_count'
+names(green_14_12)[11]<- 'Trip_distance'
+names(green_14_12)[12]<- 'Fare_amount'
+names(green_14_12)[13]<- 'Extra'
+names(green_14_12)[14]<- 'MTA_tax'
+names(green_14_12)[15]<- 'Tip_amount'
+names(green_14_12)[16]<- 'Tolls_amount'
+names(green_14_12)[17]<- 'Ehail_fee'
+names(green_14_12)[18]<- 'Total_amount'
+names(green_14_12)[19]<- 'Payment_type'
+names(green_14_12)[20]<- 'Trip_type'
+
+
+green_14_12 <- green_14_12[1:20]
+
+write.csv(green_14_12,file="D:/Data/Cab_Data/CSV FILES/Green_2014/green_tripdata_2014-12-cleans.csv",row.names=FALSE)
+
+#2015 - 01
+
+green_15_01 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-01.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_01)[1]<- 'VendorID'
+names(green_15_01)[2]<- 'lpep_pickup_datetime'
+names(green_15_01)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_01)[4]<-'Store_and_fwd_flag'
+names(green_15_01)[5]<- 'RateCodeID'
+names(green_15_01)[6]<- 'Pickup_longitude'
+names(green_15_01)[7]<- 'Pickup_latitude'
+names(green_15_01)[8]<- 'Dropoff_longitude'
+names(green_15_01)[9]<- 'Dropoff_latitude'
+names(green_15_01)[10]<- 'Passenger_count'
+names(green_15_01)[11]<- 'Trip_distance'
+names(green_15_01)[12]<- 'Fare_amount'
+names(green_15_01)[13]<- 'Extra'
+names(green_15_01)[14]<- 'MTA_tax'
+names(green_15_01)[15]<- 'Tip_amount'
+names(green_15_01)[16]<- 'Tolls_amount'
+names(green_15_01)[17]<- 'Ehail_fee'
+names(green_15_01)[18]<- 'Total_amount'
+names(green_15_01)[19]<- 'Payment_type'
+names(green_15_01)[20]<- 'Trip_type'
+
+
+green_15_01 <- green_15_01[1:20]
+
+write.csv(green_15_01,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-01-cleans.csv",row.names=FALSE)
+
+#2015-02
+
+green_15_02 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-02.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_02)[1]<- 'VendorID'
+names(green_15_02)[2]<- 'lpep_pickup_datetime'
+names(green_15_02)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_02)[4]<-'Store_and_fwd_flag'
+names(green_15_02)[5]<- 'RateCodeID'
+names(green_15_02)[6]<- 'Pickup_longitude'
+names(green_15_02)[7]<- 'Pickup_latitude'
+names(green_15_02)[8]<- 'Dropoff_longitude'
+names(green_15_02)[9]<- 'Dropoff_latitude'
+names(green_15_02)[10]<- 'Passenger_count'
+names(green_15_02)[11]<- 'Trip_distance'
+names(green_15_02)[12]<- 'Fare_amount'
+names(green_15_02)[13]<- 'Extra'
+names(green_15_02)[14]<- 'MTA_tax'
+names(green_15_02)[15]<- 'Tip_amount'
+names(green_15_02)[16]<- 'Tolls_amount'
+names(green_15_02)[17]<- 'Ehail_fee'
+names(green_15_02)[18]<- 'Total_amount'
+names(green_15_02)[19]<- 'Payment_type'
+names(green_15_02)[20]<- 'Trip_type'
+
+
+green_15_02 <- green_15_02[1:20]
+
+write.csv(green_15_02,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-02-cleans.csv",row.names=FALSE)
+
+#2015-03
+
+green_15_03 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-03.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_03)[1]<- 'VendorID'
+names(green_15_03)[2]<- 'lpep_pickup_datetime'
+names(green_15_03)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_03)[4]<-'Store_and_fwd_flag'
+names(green_15_03)[5]<- 'RateCodeID'
+names(green_15_03)[6]<- 'Pickup_longitude'
+names(green_15_03)[7]<- 'Pickup_latitude'
+names(green_15_03)[8]<- 'Dropoff_longitude'
+names(green_15_03)[9]<- 'Dropoff_latitude'
+names(green_15_03)[10]<- 'Passenger_count'
+names(green_15_03)[11]<- 'Trip_distance'
+names(green_15_03)[12]<- 'Fare_amount'
+names(green_15_03)[13]<- 'Extra'
+names(green_15_03)[14]<- 'MTA_tax'
+names(green_15_03)[15]<- 'Tip_amount'
+names(green_15_03)[16]<- 'Tolls_amount'
+names(green_15_03)[17]<- 'Ehail_fee'
+names(green_15_03)[18]<- 'Total_amount'
+names(green_15_03)[19]<- 'Payment_type'
+names(green_15_03)[20]<- 'Trip_type'
+
+
+green_15_03 <- green_15_03[1:20]
+
+write.csv(green_15_03,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-03-cleans.csv",row.names=FALSE)
+
+#2015-04
+
+green_15_04 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-04.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_04)[1]<- 'VendorID'
+names(green_15_04)[2]<- 'lpep_pickup_datetime'
+names(green_15_04)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_04)[4]<-'Store_and_fwd_flag'
+names(green_15_04)[5]<- 'RateCodeID'
+names(green_15_04)[6]<- 'Pickup_longitude'
+names(green_15_04)[7]<- 'Pickup_latitude'
+names(green_15_04)[8]<- 'Dropoff_longitude'
+names(green_15_04)[9]<- 'Dropoff_latitude'
+names(green_15_04)[10]<- 'Passenger_count'
+names(green_15_04)[11]<- 'Trip_distance'
+names(green_15_04)[12]<- 'Fare_amount'
+names(green_15_04)[13]<- 'Extra'
+names(green_15_04)[14]<- 'MTA_tax'
+names(green_15_04)[15]<- 'Tip_amount'
+names(green_15_04)[16]<- 'Tolls_amount'
+names(green_15_04)[17]<- 'Ehail_fee'
+names(green_15_04)[18]<- 'Total_amount'
+names(green_15_04)[19]<- 'Payment_type'
+names(green_15_04)[20]<- 'Trip_type'
+
+
+green_15_04 <- green_15_04[1:20]
+
+write.csv(green_15_04,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-04-cleans.csv",row.names=FALSE)
+
+#2015-05
+
+green_15_05 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-05.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_05)[1]<- 'VendorID'
+names(green_15_05)[2]<- 'lpep_pickup_datetime'
+names(green_15_05)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_05)[4]<-'Store_and_fwd_flag'
+names(green_15_05)[5]<- 'RateCodeID'
+names(green_15_05)[6]<- 'Pickup_longitude'
+names(green_15_05)[7]<- 'Pickup_latitude'
+names(green_15_05)[8]<- 'Dropoff_longitude'
+names(green_15_05)[9]<- 'Dropoff_latitude'
+names(green_15_05)[10]<- 'Passenger_count'
+names(green_15_05)[11]<- 'Trip_distance'
+names(green_15_05)[12]<- 'Fare_amount'
+names(green_15_05)[13]<- 'Extra'
+names(green_15_05)[14]<- 'MTA_tax'
+names(green_15_05)[15]<- 'Tip_amount'
+names(green_15_05)[16]<- 'Tolls_amount'
+names(green_15_05)[17]<- 'Ehail_fee'
+names(green_15_05)[18]<- 'Total_amount'
+names(green_15_05)[19]<- 'Payment_type'
+names(green_15_05)[20]<- 'Trip_type'
+
+
+green_15_05 <- green_15_05[1:20]
+
+write.csv(green_15_05,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-05-cleans.csv",row.names=FALSE)
+
+#2015-06
+
+green_15_06 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-06.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_06)[1]<- 'VendorID'
+names(green_15_06)[2]<- 'lpep_pickup_datetime'
+names(green_15_06)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_06)[4]<-'Store_and_fwd_flag'
+names(green_15_06)[5]<- 'RateCodeID'
+names(green_15_06)[6]<- 'Pickup_longitude'
+names(green_15_06)[7]<- 'Pickup_latitude'
+names(green_15_06)[8]<- 'Dropoff_longitude'
+names(green_15_06)[9]<- 'Dropoff_latitude'
+names(green_15_06)[10]<- 'Passenger_count'
+names(green_15_06)[11]<- 'Trip_distance'
+names(green_15_06)[12]<- 'Fare_amount'
+names(green_15_06)[13]<- 'Extra'
+names(green_15_06)[14]<- 'MTA_tax'
+names(green_15_06)[15]<- 'Tip_amount'
+names(green_15_06)[16]<- 'Tolls_amount'
+names(green_15_06)[17]<- 'Ehail_fee'
+names(green_15_06)[18]<- 'Total_amount'
+names(green_15_06)[19]<- 'Payment_type'
+names(green_15_06)[20]<- 'Trip_type'
+
+
+green_15_06 <- green_15_06[1:20]
+
+write.csv(green_15_06,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-06-cleans.csv",row.names=FALSE)
+
+#2015-07
+
+green_15_07 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-07.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_07)[1]<- 'VendorID'
+names(green_15_07)[2]<- 'lpep_pickup_datetime'
+names(green_15_07)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_07)[4]<-'Store_and_fwd_flag'
+names(green_15_07)[5]<- 'RateCodeID'
+names(green_15_07)[6]<- 'Pickup_longitude'
+names(green_15_07)[7]<- 'Pickup_latitude'
+names(green_15_07)[8]<- 'Dropoff_longitude'
+names(green_15_07)[9]<- 'Dropoff_latitude'
+names(green_15_07)[10]<- 'Passenger_count'
+names(green_15_07)[11]<- 'Trip_distance'
+names(green_15_07)[12]<- 'Fare_amount'
+names(green_15_07)[13]<- 'Extra'
+names(green_15_07)[14]<- 'MTA_tax'
+names(green_15_07)[15]<- 'Tip_amount'
+names(green_15_07)[16]<- 'Tolls_amount'
+names(green_15_07)[17]<- 'Ehail_fee'
+names(green_15_07)[18]<- 'Total_amount'
+names(green_15_07)[19]<- 'Payment_type'
+names(green_15_07)[20]<- 'Trip_type'
+
+
+green_15_07 <- green_15_07[1:20]
+
+write.csv(green_15_07,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-07-cleans.csv",row.names=FALSE)
+
+#2015-08
+
+green_15_08 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-08.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_08)[1]<- 'VendorID'
+names(green_15_08)[2]<- 'lpep_pickup_datetime'
+names(green_15_08)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_08)[4]<-'Store_and_fwd_flag'
+names(green_15_08)[5]<- 'RateCodeID'
+names(green_15_08)[6]<- 'Pickup_longitude'
+names(green_15_08)[7]<- 'Pickup_latitude'
+names(green_15_08)[8]<- 'Dropoff_longitude'
+names(green_15_08)[9]<- 'Dropoff_latitude'
+names(green_15_08)[10]<- 'Passenger_count'
+names(green_15_08)[11]<- 'Trip_distance'
+names(green_15_08)[12]<- 'Fare_amount'
+names(green_15_08)[13]<- 'Extra'
+names(green_15_08)[14]<- 'MTA_tax'
+names(green_15_08)[15]<- 'Tip_amount'
+names(green_15_08)[16]<- 'Tolls_amount'
+names(green_15_08)[17]<- 'Ehail_fee'
+names(green_15_08)[18]<- 'Total_amount'
+names(green_15_08)[19]<- 'Payment_type'
+names(green_15_08)[20]<- 'Trip_type'
+
+
+green_15_08 <- green_15_08[1:20]
+
+write.csv(green_15_08,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-08-cleans.csv",row.names=FALSE)
+
+#2015-09
+
+green_15_09 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-09.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_09)[1]<- 'VendorID'
+names(green_15_09)[2]<- 'lpep_pickup_datetime'
+names(green_15_09)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_09)[4]<-'Store_and_fwd_flag'
+names(green_15_09)[5]<- 'RateCodeID'
+names(green_15_09)[6]<- 'Pickup_longitude'
+names(green_15_09)[7]<- 'Pickup_latitude'
+names(green_15_09)[8]<- 'Dropoff_longitude'
+names(green_15_09)[9]<- 'Dropoff_latitude'
+names(green_15_09)[10]<- 'Passenger_count'
+names(green_15_09)[11]<- 'Trip_distance'
+names(green_15_09)[12]<- 'Fare_amount'
+names(green_15_09)[13]<- 'Extra'
+names(green_15_09)[14]<- 'MTA_tax'
+names(green_15_09)[15]<- 'Tip_amount'
+names(green_15_09)[16]<- 'Tolls_amount'
+names(green_15_09)[17]<- 'Ehail_fee'
+names(green_15_09)[18]<- 'Total_amount'
+names(green_15_09)[19]<- 'Payment_type'
+names(green_15_09)[20]<- 'Trip_type'
+
+
+green_15_09 <- green_15_09[1:20]
+
+write.csv(green_15_09,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-09-cleans.csv",row.names=FALSE)
+
+#2015-10
+
+green_15_10 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-10.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_10)[1]<- 'VendorID'
+names(green_15_10)[2]<- 'lpep_pickup_datetime'
+names(green_15_10)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_10)[4]<-'Store_and_fwd_flag'
+names(green_15_10)[5]<- 'RateCodeID'
+names(green_15_10)[6]<- 'Pickup_longitude'
+names(green_15_10)[7]<- 'Pickup_latitude'
+names(green_15_10)[8]<- 'Dropoff_longitude'
+names(green_15_10)[9]<- 'Dropoff_latitude'
+names(green_15_10)[10]<- 'Passenger_count'
+names(green_15_10)[11]<- 'Trip_distance'
+names(green_15_10)[12]<- 'Fare_amount'
+names(green_15_10)[13]<- 'Extra'
+names(green_15_10)[14]<- 'MTA_tax'
+names(green_15_10)[15]<- 'Tip_amount'
+names(green_15_10)[16]<- 'Tolls_amount'
+names(green_15_10)[17]<- 'Ehail_fee'
+names(green_15_10)[18]<- 'Total_amount'
+names(green_15_10)[19]<- 'Payment_type'
+names(green_15_10)[20]<- 'Trip_type'
+
+
+green_15_10 <- green_15_10[1:20]
+
+write.csv(green_15_10,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-10-cleans.csv",row.names=FALSE)
+
+#2015-11
+
+green_15_11 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-11.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_11)[1]<- 'VendorID'
+names(green_15_11)[2]<- 'lpep_pickup_datetime'
+names(green_15_11)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_11)[4]<-'Store_and_fwd_flag'
+names(green_15_11)[5]<- 'RateCodeID'
+names(green_15_11)[6]<- 'Pickup_longitude'
+names(green_15_11)[7]<- 'Pickup_latitude'
+names(green_15_11)[8]<- 'Dropoff_longitude'
+names(green_15_11)[9]<- 'Dropoff_latitude'
+names(green_15_11)[10]<- 'Passenger_count'
+names(green_15_11)[11]<- 'Trip_distance'
+names(green_15_11)[12]<- 'Fare_amount'
+names(green_15_11)[13]<- 'Extra'
+names(green_15_11)[14]<- 'MTA_tax'
+names(green_15_11)[15]<- 'Tip_amount'
+names(green_15_11)[16]<- 'Tolls_amount'
+names(green_15_11)[17]<- 'Ehail_fee'
+names(green_15_11)[18]<- 'Total_amount'
+names(green_15_11)[19]<- 'Payment_type'
+names(green_15_11)[20]<- 'Trip_type'
+
+
+green_15_11 <- green_15_11[1:20]
+
+write.csv(green_15_11,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-11-cleans.csv",row.names=FALSE)
+
+#2015-12
+
+green_15_12 <- read.csv("D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-12.csv", header = FALSE, sep = ",", skip = 3)
+
+names(green_15_12)[1]<- 'VendorID'
+names(green_15_12)[2]<- 'lpep_pickup_datetime'
+names(green_15_12)[3]<- 'Lpep_dropoff_datetime'
+names(green_15_12)[4]<-'Store_and_fwd_flag'
+names(green_15_12)[5]<- 'RateCodeID'
+names(green_15_12)[6]<- 'Pickup_longitude'
+names(green_15_12)[7]<- 'Pickup_latitude'
+names(green_15_12)[8]<- 'Dropoff_longitude'
+names(green_15_12)[9]<- 'Dropoff_latitude'
+names(green_15_12)[10]<- 'Passenger_count'
+names(green_15_12)[11]<- 'Trip_distance'
+names(green_15_12)[12]<- 'Fare_amount'
+names(green_15_12)[13]<- 'Extra'
+names(green_15_12)[14]<- 'MTA_tax'
+names(green_15_12)[15]<- 'Tip_amount'
+names(green_15_12)[16]<- 'Tolls_amount'
+names(green_15_12)[17]<- 'Ehail_fee'
+names(green_15_12)[18]<- 'Total_amount'
+names(green_15_12)[19]<- 'Payment_type'
+names(green_15_12)[20]<- 'Trip_type'
+
+
+green_15_12 <- green_15_12[1:20]
+
+write.csv(green_15_12,file="D:/Data/Cab_Data/CSV FILES/Green_2015/green_tripdata_2015-12-cleans.csv",row.names=FALSE)
